@@ -3,21 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
 <title>Movies</title>
 
 <style>
-	header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
 	nav {
             background-color: #666;
             padding: 10px;
             text-align: center;
         }
-        nav a {
+    nav a {
             color: #fff;
             text-decoration: none;
             padding: 10px 20px;
@@ -25,11 +20,21 @@
         nav a:hover {
             background-color: #999;
         }
+		
+	video {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            z-index: -1; 
+        }
+		
 	footer {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -37,9 +42,10 @@
 </style>
 </head>
 <body>
-  <header>
-    <h1>Movies</h1>
-  </header>
+    <video autoplay muted loop>
+        <source src="C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\bgvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
   
   <nav>
         
@@ -51,9 +57,80 @@
       
     </nav>
   <main>
-    <h2><center>Explore Latest Movies</center></h2>
-    <p>Find out the latest movies and their reviews here.</p>
+	<h2><center><font face = "Forte" color="DarkBlue" size="30"> Pure cinematic magic 🎬✨ </center></font></h2>
+    <h3><font face = "Times New Roman" color="DarkBlue" size="5"><b>Latest English Movies Hollywood</font></b></h3>
+	<table border = "1">
+	<tr>
+		<td> <img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\Monkey Man.webp"> </td>
+		<td> Monkey Man <br> Dev Patel, Sharlto Copley, 
+		Pitobash Tripathy, Sobhita Dhulipala,<br> Makarand Deshpande, Sikandar Kher, Vipin Sharma, Ashwini Kalsekar <br>
+		English | Action, Thriller <br>
+		05 Apr 2024 | 1 hr 53 mins <br>
+		<a href = "https://timesofindia.indiatimes.com/entertainment/english/movie-details/monkey-man/movieshow/107225272.cms"> Monkey Man </a> </td>
+		
+		<td> <img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\One Life.webp"> </td>
+		<td> One Life <br> Anthony Hopkins, Lena Olin, Johnny Flynn, Alex Sharp <br>
+		English | Biography, Drama, History | U <br>
+		05 Apr 2024 | 1 hr 51 mins<br>
+		<a href="https://timesofindia.indiatimes.com/videos/entertainment/english/one-life-official-trailer/videoshow/108993000.cms"> One Life </a></td>
+		
+	</tr>
+	<tr>
+		<td> <center><img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\1.jpg"></center> </td>
+		<td> The Defective Detectives <br> Siddharth Jadhav, Johnny Lever, Shweta Gulati, <br> 
+		Vijay Patkar, Bharat Dabholkar, Tejaswini Lonari<br>
+		English | Comedy, Mystery | A <br>
+		05 Apr 2024 | 2 hrs 13 mins <br>
+		<a href = "https://timesofindia.indiatimes.com/entertainment/english/movie-details/the-defective-detectives/movieshow/108525664.cms"> 
+		The Defective Detectives </a> </td>
+		
+		<td> <img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\2.jpg"> </td>
+		<td> The First Omen <br> Nell Tiger Free, Sonia Braga, Ralph Ineson, Bill Nighy,<br> 
+		Maria Caballero, Charles Dance, Andrea Arcangeli, Tawfeek Barhom <br>
+		English | Horror, Thriller | A <br>
+		05 Apr 2024 | 2 hrs 0 mins <br>
+		<a href="https://timesofindia.indiatimes.com/videos/entertainment/english/the-first-omen-official-trailer/videoshow/106590704.cms"> 
+		The First Omen </a> </td>
+	</tr>
+	</table>
+	
+	<h3><font face = "Times New Roman" color="DarkBlue" size="5"><b> Latest Sinhala and Tamil Movies Kollywood </font></b></h3>
+	<table border = "1">
+	<tr>
+		<td> <img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\The swimming pond.jpg"> </td>
+		<td> The Singing Pond <br> Stars: Jagath ChamilaJayani SenanayakeDayadewa Edirisinghe 
+		Director: Indika Ferdinando <br>
+		Writer: Indika Ferdinando <br>
+		<a href = "https://www.imdb.com/title/tt3555534/?ref_=ttls_li_i"> The Singing Pond </a> </td>
+		
+		<td> <img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\Dear1.jpg"> </td>
+		<td> Dear <br> G. V. Prakash Kumar, Aishwarya Rajesh, Rohini, Kaali Venkat, Ilavarasu, Thalaivasal Vijay <br>
+		Tamil | Comedy, Family, Romance | U<br>
+		11 Apr 2024 | 2 hrs 14 mins <br>
+		<a href="https://timesofindia.indiatimes.com/entertainment/tamil/movie-details/dear/movieshow/100525481.cms"> Dear </a></td>
+		
+	</tr>
+	<tr>
+		<td> <center><img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\sankara.jpg"></center> </td>
+		<td> Sankara <br> Stars: Thumindu DodantenneSachini AyendraNilua Heenkendaarachchi <br> 
+		Director: Prasanna Jayakody <br>
+		Writer: Prasanna Jayakody <br>
+		<a href = "https://www.imdb.com/title/tt1058748/?ref_=ttls_li_tt"> Sankara </a> </td>
+		
+		<td> <img src = "C:\Users\PCSM\Desktop\2nd Year 1st sem\Multimedia and Web Technology ICT 2404\Downloaded Pictures\3.jpg"> </td>
+		<td> Iravin kangal <br> Pop Suresh, Dolly Aishu, Giri Dwarakish, Selvakanthan, Azhagu_Raja <br> 
+		Tamil | Thriller, Sci-Fi <br>
+		05 Apr 2024 | 2 hrs 2 mins <br>
+		<a href ="https://timesofindia.indiatimes.com/entertainment/tamil/movie-details/iravin-kangal/movieshow/108816289.cms"> Iravin Kangal </a> </td>
+	</tr>
+	</table>
+	
   </main>
+  
+  <table>
+	
+  </table>
+	
   <footer>
         <p>&copy; Entertainment World</p>
   </footer>

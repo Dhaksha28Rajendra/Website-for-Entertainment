@@ -59,7 +59,8 @@
 }
 
 .banner-title h1 span {
-  color: rgba(230, 41, 41, 0.678);
+   font-family: Forte;
+  color: Maroon;
 }
 
 @media (max-width: 700px) {
@@ -100,7 +101,7 @@
   height: 70px;
   margin-bottom: 70px;
   display: block;
-  color: rgba(230, 41, 41, 0.678);
+  color: Black;
 }
 
 .flip2 {
